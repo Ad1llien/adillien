@@ -1,0 +1,24 @@
+@import '../../sass/base/variables';
+*{
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+.promo{
+    background: url('../../img/bg.png');
+    
+}
+
+
+.container{
+    min-width: 950px;
+    margin: 0 auto;
+}
+@import '../../sass/blocks/header';
+@import '../blocks/header';
+@import '../blocks/promo';
+@import '../../sass/css/header.min.css';
+@import '../../sass/base/variables';
+@import '../blocks/promo';
+@import '../../sass/blocks/promo';
+@import '../base/animation';
+

@@ -1,0 +1,56 @@
+.header{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-content: center;
+    &__logo {
+        width: 250px;
+        background: url(../../img/шапка.png);
+        height: auto;
+        z-index: 2;
+        img{
+            width: 100%;
+        }
+    }
+    &__official{
+        color: #ffff;
+        font-size: 12px;
+        font-weight: 500;
+        span{
+            font-size: 18px;
+        }
+    }
+    &__subheader{
+        color: #ffff;
+        font-size: 24px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    &__header{
+        color: #ffff;
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 24px;
+        text-transform: uppercase;
+        line-height: 42px;
+
+    }
+    &__icons{
+        margin-top: 65px;
+        width: 425px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__icon{
+        width: 106px;
+        text-align: center;
+        color: #ffff;
+        font-size: 14px;
+        font-weight: 500;
+        img{
+            display: block;
+            margin: 0;
+            margin-bottom: 20px;
+        }
+    }
+}
